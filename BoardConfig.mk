@@ -33,5 +33,8 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
+# Sensors
+TARGET_NO_SENSOR_PERMISSION_CHECK := true
+
 # inherit from the proprietary version
 -include vendor/samsung/matissewifi/BoardConfigVendor.mk
