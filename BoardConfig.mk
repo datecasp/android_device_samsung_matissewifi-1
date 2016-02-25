@@ -22,6 +22,8 @@ DEVICE_PATH := device/samsung/matissewifi
 # Kernel
 BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/mkbootimg.mk
 TARGET_KERNEL_CONFIG := cyanogenmod_matissewifi_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := msm8226-sec_kexec_defconfig
+#TARGET_KERNEL_SELINUX_CONFIG := noselinux_defconfig
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2097152000
