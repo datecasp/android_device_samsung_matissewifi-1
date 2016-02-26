@@ -1,5 +1,7 @@
 # Qualcomm framework
 vendor/lib/libdiag.so
+vendor/lib/libdsnetutils.so
+vendor/lib/libdsucsd.so
 vendor/lib/libdsutils.so
 vendor/lib/libidl.so
 vendor/lib/libqcci_legacy.so
@@ -8,10 +10,12 @@ vendor/lib/libqmi_cci.so
 vendor/lib/libqmi_client_qmux.so
 vendor/lib/libqmi_common_so.so
 vendor/lib/libqmi_csi.so
+vendor/lib/libqmi_csvt_srvc.so
 vendor/lib/libqmi_encdec.so
 vendor/lib/libqmiservices.so
 
 # Radio
+bin/ds_fmc_appd
 bin/qmuxd
 bin/radish
 bin/rfs_access
