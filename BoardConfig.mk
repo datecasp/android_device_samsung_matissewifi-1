@@ -20,7 +20,6 @@ TARGET_OTA_ASSERT_DEVICE := matissewifi,matissewifiue,matissewifixx
 DEVICE_PATH := device/samsung/matissewifi
 
 # Kernel
-BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/mkbootimg.mk
 TARGET_KERNEL_CONFIG := cyanogenmod_matisse_defconfig
 TARGET_KERNEL_VARIANT_CONFIG := cyanogenmod_matissewifi_defconfig
 
