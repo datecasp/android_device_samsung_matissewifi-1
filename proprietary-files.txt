@@ -33,5 +33,3 @@ vendor/lib/libconfigdb.so
 vendor/lib/libril-qcril-hook-oem.so
 vendor/lib/libxml.so
 
-# ConsumerIR
-lib/hw/consumerir.default.so
