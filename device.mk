@@ -22,9 +22,8 @@ $(call inherit-product-if-exists, vendor/samsung/matissewifi/matissewifi-vendor.
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# Permissions
 PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.consumerir.xml:system/etc/permissions/android.hardware.consumerir.xml
+        $(LOCAL_PATH)/prebuilt/milletwifi/boot.img:install/kernel/boot.img
 
 # common matisse
 $(call inherit-product, device/samsung/matisse-common/matisse.mk)

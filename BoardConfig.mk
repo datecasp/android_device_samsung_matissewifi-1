@@ -15,7 +15,7 @@
 # inherit from matisse-common
 -include device/samsung/matisse-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := matissewifi,matissewifiue,matissewifixx
+TARGET_OTA_ASSERT_DEVICE := matissewifi,matissewifiue,matissewifixx,milletwifi,milletwifiue,milletwifixx
 
 DEVICE_PATH := device/samsung/matissewifi
 
