@@ -1,11 +1,11 @@
 # GPS/location security configuration file
 PRODUCT_COPY_FILES += \
-    device/samsung/serranodsdd/configs/sec_config:system/etc/sec_config
+    device/samsung/matissewifi/configs/sec_config:system/etc/sec_config
 
 # GPS config
 PRODUCT_COPY_FILES += \
-    device/samsung/serranodsdd/configs/gps.conf:system/etc/gps.conf \
-    device/samsung/serranodsdd/configs/sap.conf:system/etc/sap.conf
+    device/samsung/matissewifi/configs/gps.conf:system/etc/gps.conf \
+    device/samsung/matissewifi/configs/sap.conf:system/etc/sap.conf
 
 # GPS HAL
 PRODUCT_PACKAGES += \

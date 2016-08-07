@@ -29,9 +29,8 @@ endif
 endif
 
 ifeq ($(BOARD_VENDOR),samsung)
-ifeq ($(TARGET_BOARD_PLATFORM),msm8960)
-ifneq ($(filter serrano3gxx serranodsdd serranodsub serranoltebmc \
-                serranoltespr serranolteusc serranoltexx,$(TARGET_DEVICE)),)
+ifeq ($(TARGET_BOARD_PLATFORM),msm8226)
+ifneq ($(filter matissewifi,$(TARGET_DEVICE)),)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
 MODEM_IMAGES := \
